@@ -1,0 +1,25 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","cocostudio"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/global.js",
+        "src/GameScene.js",
+        "src/GameSceneController.js",
+        "src/GameSceneView.js",
+        "src/GameModel.js",
+        "src/BeatSpriteManager.js",
+        "src/SoundManager.js",
+        "src/StartScene.js"
+    ]
+}
